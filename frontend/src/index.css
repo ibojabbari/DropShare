@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color-scheme: dark;
+  margin: 0;
+  min-width: 320px;
+  background-color: #16151b;
+  color: #eeeaf3;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled,
+input:disabled {
+  cursor: wait;
+  opacity: 0.6;
+}
+
+a {
+  color: #c3a5f5;
+}
+
+button:focus-visible,
+input:focus-visible,
+a:focus-visible {
+  outline: 2px solid #c3a5f5;
+  outline-offset: 3px;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
